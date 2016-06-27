@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Wiki Viewer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<body id="body">
+ 
+  <div id="wrap">
+    <div class="text-center">
+      <h1 id="title">Wiki Viewer</h1>
+    </div>
+    
+    
+    <div class="container-fluid">
+      <div class="col-xs-12">
+        <div class="input-group">
+          <input type="text" id="search" class="form-control" placeholder="Search for a Wiki...">
+          <span class="input-group-btn">
+            <button id="searchButton" class="btn btn-primary btn-md outline" type="button">Your Wiki</button>
+          </span>
+          <span class="input-group-btn">
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id="randomButton" class="btn btn-primary btn-md outline" type="button">Feeln' Lucky</button></a>
+          </span>
+        </div><!-- /input-group -->
+      </div>
+    </div>
+    
+  <!--   Append results here -->
+   <div class="container"> 
+    </div>
+
+
+
+  </div>
+    <footer class="footer navbar-static-bottom"> Simon Situ for Free Code Camp 2016</footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
